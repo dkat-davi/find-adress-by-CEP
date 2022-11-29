@@ -41,11 +41,10 @@ O projeto tem duas versões.
 
 <h2>&#X1F4C1 Acesso ao projeto</h2>
 
-<p>As duas versões estão disponíveis neste repositório, faça download viz arquivo zip ou clone este repositório na sua máquina Windows e compile o código utilizando o <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio</a>.<p>
+<p>As duas versões estão disponíveis neste repositório, faça download via arquivo zip ou clone este repositório na sua máquina Windows e compile o código utilizando o <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio</a>.<p>
 
 <ul>
-    <li>Download <a>PrimeiraVersão.zip</a></li>
-    <li>Download <a>SegundaVersão.zip</a></li>
+    <li>Download <a href="https://github.com/DKAT-DAVI/find-adress-by-CEP/archive/refs/heads/main.zip">find-adress-by-CEP.zip</a></li>
 </ul>
 
 
