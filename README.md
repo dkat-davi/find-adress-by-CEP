@@ -15,17 +15,17 @@
 
 <h2>&#X1F4DD Descrição do projeto</h2>
 
-<p>Neste projeto foi usado a API <a href="https://viacep.com.br/">Via CEP</a> para que quando o usuário digitasse o CEP, fosse buscado os dados daquela localidade e fizesse um auto-complete nos campos.<p>
+<p>Neste projeto foi usado o WebService <a href="https://viacep.com.br/">Via CEP</a> para que quando o usuário digitasse o CEP, fosse buscado os dados daquela localidade e fizesse um auto-complete nos campos.<p>
 
 O projeto tem duas versões.
 
 <h2>1️⃣ Primeira versão</h2>
 
-<p>Na primeira versão foi usado o pacote <a href="https://github.com/MosaicoSolutions/ViaCep">MosaicoSolutions.ViaCep<a> para facilitar o request de dados da API e o pacote <a href="https://www.newtonsoft.com/json">Newtonsoft.Json</a> para fazer a deserialização do json que é retornado pela API.<p>
+<p>Na primeira versão foi usado o pacote <a href="https://github.com/MosaicoSolutions/ViaCep">MosaicoSolutions.ViaCep<a> para facilitar o request de dados no WebService e o pacote <a href="https://www.newtonsoft.com/json">Newtonsoft.Json</a> para fazer a deserialização do json que é retornado no request.<p>
 
 <h2>2️⃣ Segunda versão</h2>
 
-<p>Na segunda versão foi feito um request diretamente da API usando a classe <a href="https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-7.0">HttpClient</a> e o pacote <a href="https://www.newtonsoft.com/json">Newtonsoft.Json</a> para fazer a deserialização do json que é retornado pela API que foi convertido para um objeto do tipo <a href="https://github.com/DKAT-DAVI/find-adress-by-CEP/blob/main/Release2/find-adress-by-CEP/Adress.cs">Adress</a>.<p>
+<p>Na segunda versão foi feito um request diretamente do <a href="https://viacep.com.br/">Via CEP</a> usando a classe <a href="https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-7.0">HttpClient</a> e o pacote <a href="https://www.newtonsoft.com/json">Newtonsoft.Json</a> para fazer a deserialização do json que é retornado no request e que foi convertido para um objeto do tipo <a href="https://github.com/DKAT-DAVI/find-adress-by-CEP/blob/main/Release2/find-adress-by-CEP/Adress.cs">Adress</a>.<p>
 
 <h2>&#X1F528 Funcionalidades do projeto</h2>
 
@@ -60,7 +60,7 @@ O projeto tem duas versões.
     <li><bigger><b>POO</b></bigger> programação orientada a obejtos</li>
 </ul>
 <ul><b>Dependêcias</b>
-    <li>API <a href="https://viacep.com.br/">Via CEP</a></li>
+    <li>WebService <a href="https://viacep.com.br/">Via CEP</a></li>
     <li>Pacote <a href="https://github.com/MosaicoSolutions/ViaCep">MosaicoSolutions.ViaCep<a></li>
     <li>Pacote <a href="https://www.newtonsoft.com/json">Newtonsoft.Json</a></li>
 </ul>
