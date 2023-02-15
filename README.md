@@ -31,7 +31,7 @@ O projeto tem duas versões.
 
 <ul>
     <li>Tela principal com uma textbox para inserir o CEP, botão para acionar a busca e um botão para limpar os resultados obtidos.</li>
-    <li>Ao inserir o CEP e clicar em BUSCAR, o programa vai preencher od campos com os dados buscados.</li>
+    <li>Ao inserir o CEP e clicar em BUSCAR, o programa vai preencher os campos com os dados buscados.</li>
 
 </ul>
 
